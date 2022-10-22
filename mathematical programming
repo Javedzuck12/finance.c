@@ -1,0 +1,377 @@
+#include<stdio.h>
+int main()
+{
+    int a, b;
+    printf("enter first number \n");
+    scanf("%d",&a);
+    printf("enter a second number \n");
+    scanf("%d",&b);
+    printf("sum of two number is %d \n",a+b);
+    return 0;
+}
+
+//to print area of square
+#include<stdio.h>
+int main()
+{
+    int side;
+    scanf("%d",side);
+    printf("&d",side*side);
+    return 0;
+    }
+
+    //to calculate the area of circle
+    #include<stdio.h>
+    int main()
+    {
+        float radius;
+        printf("Enter the radius:");
+        scanf("%f",&radius);
+        printf("The area of circle is:%f\",3.14*radius*radius);
+        return 0;
+
+    }
+ //self thought program auto increase number
+   #include<stdio.h>
+int main()
+{
+    int age;
+    int oldage=age;
+    int newage=oldage+2;
+    printf("enter the age\n:");
+    scanf("%d",&age);
+    printf("the new age is %d",newage);
+    return 0;
+
+}
+
+
+//to calculate the circumfarance  of circle
+#include<stdio.h>
+int main()
+{
+    float radius;
+    printf("Enter the radius :");
+    scanf("%f",&radius);
+    printf("The circumfarance of circle is:%f\n",2*3.14*radius);
+    return 0;
+}
+
+// to check whether a given number is divisible by 2
+#include<stdio.h>
+int main()
+{
+    printf("%d\n",3<6&&4>1);
+    return 0;
+
+}
+
+//to check whether a given number is divisible by 2 or not
+#include<stdio.h>
+int main()
+{
+    int x;
+    scanf("%d\n",&x);
+    printf("the number is :%d\n",x%2==o);
+    return 0;
+}
+
+//to the check the condition
+#include <stdio.h>
+int main()
+int x
+{
+    scanf("%d",&x);
+    printf("enter the age");
+
+    if(x>=18)
+            printf("you are adult\n");
+  else
+        printf("you are not adult");
+  return 0;
+}
+
+//to check the condition as age
+#include<stdio.h>
+int main()
+{
+    int age;
+    printf("enter number :\n");
+    scanf("%d",&age);
+
+    if(age>=18){
+        printf("you are adult\n");
+    }
+    else{
+        printf("you are not\n");
+    }
+    return 0;
+}
+//shopify mini code
+#include <stdio.h>
+int main()
+{
+    int price;
+    printf("enter the price:\n");
+    scanf("%d",&age);
+    if (price<=1000){
+        printf("you are eligible  to shop\n");
+    }
+    else{
+        printf("you can go to another store:\n");
+    }
+    return 0;
+}
+
+
+
+//switch case on the basis week
+#include<stdio.h>
+int main()
+{
+    int day;
+    printf("Enter the number:\n");
+    scanf("%d",&day);
+
+    switch(day){
+
+    case 1:printf("monday\n");
+     break;
+
+    case 2:printf("tuesday\n");
+     break;
+
+    case 3:printf("wednesday\n");
+     break;
+
+    case 4:printf("thursday\n");
+     break;
+
+    case 5:printf("friday\n");
+     break;
+
+    case 6:printf("saturday\n");
+     break;
+
+    case 7:printf("sunday\n");
+     break;
+    }
+    return 0;
+}
+
+//alphabet uses in switch
+#include<stdio.h>
+int main()
+{
+    char day;
+    printf("Enter the character:\n");
+    scanf("%ch",&day);
+
+    switch(day){
+
+    case 'm':printf("Monday\n");
+     break;
+
+    case 't':printf("Tuesday\n");
+     break;
+
+    case 'w':printf("Wednesday\n");
+     break;
+
+    case 'T':printf("Thursday\n");
+     break;
+
+    case 'f':printf("Friday\n");
+     break;
+
+    case 's':printf("Saturday\n");
+     break;
+
+    case 'S':printf("Sunday\n");
+     break;
+    }
+     return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+    int num=12;
+    int letter=12;
+    printf("enter the letter:\n");
+    scanf("%d",&letter);
+
+    num==letter ? printf("you are right\n"):printf("you are not\n");
+    return 0;
+
+}
+
+//loop
+#include<stdio.h>
+int main()
+{
+    for(int i=1;i<=10;i--){
+        printf("%d\n",i);
+    }
+}
+#include <stdio.h>
+int calcsquare(int n);
+
+    int main(){
+    int n;
+    printf("enter the number:\n");
+    scanf("%d",n);
+    printf("the square  %d",calcsquare(n));
+    return 0;
+    }
+
+    int calcsquare(int n){
+    return n*n;
+    }
+
+
+//loop
+#include<stdio.h>
+int main()
+{
+    int i=1;
+    while(i<=19){
+        printf("%d\n",i);
+        i++;
+    }
+    return 0;
+}
+
+//loop
+#include<stdio.h>
+int main()
+{
+    int i=1;
+    do {
+        printf("%d\n",i);
+        i++;
+        }while(i<=10);
+        return 0;
+}
+
+//to program the n of their number and their sum
+#include<stdio.h>
+int main()
+{
+    int i,n,sum=0;
+    printf("test the number:\n");
+    scanf("%d",&n);
+    printf("The first n natural number:\n%d",&n);
+    for(int i=1;i<=n;i++){
+        printf("%d",i);
+    }
+    for(int i=1;i<=n;i++){
+        sum=sum+i;
+    }
+    printf("The sum of their natural number:%d",sum);
+    return 0;
+}
+
+//to take input from the user and and calculate cube
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("enter the number:\n");
+    scanf("%d",&n);
+    printf("The of given integers :%d",n*n*n2);
+    return 0;
+}
+
+// This is a program to display the multiplication table of a given integer.
+#include<stdio.h>
+int main()
+{ int i,num;
+printf("Input the number(Table to be calculated):\n");
+scanf("%d",&num);
+for(i=1;i<=10;i++)
+{ printf("%d * %d = %d\n",num,i,num*i);
+}
+return 0;}
+
+//to display the factorial
+#include<stdio.h>
+int main()
+{int i,fact=1,num;
+printf("Input the number : ");
+scanf("%d",&num);
+for(i=1;i<=num;i++)
+{ fact=fact*i;
+}
+printf("Factorial of %d is : %d",num,fact);
+return 0;
+}
+OUTPUT
+#include <stdio.h>
+int main()
+{
+    int marks;
+    printf("enter your marks:\n");
+    scanf("%d",&marks);
+    if(marks>=60){
+        printf("you are first division\n");
+    }
+    else if(marks<=60){
+        printf("you are average\n");
+    }
+    else{
+        printf("you are not pass \n");
+    }
+
+    return 0;
+}
+
+//to program to calculate the time of circular motion
+#include <stdio.h>
+int main()
+{
+    int radius,velocity;
+    printf("Enter the radius:\n");
+    scanf("%d",&radius);
+    printf("Enter the velocity:\n");
+    scanf("%d",&velocity);
+     printf("The time period of circular object is :%f",2*3.14*radius/velocity);
+     return 0;
+}
+//problem on function and recursion
+#include <stdio.h>
+void printhello();//function declearation
+//function call
+int main(){
+printhello();
+printhello();
+return 0;
+}
+//function definition
+void printhello(){
+  printf("hello world\n");
+}
+
+
+#include <stdio.h>
+void printhello();//function declearation
+//function call
+int main(){
+printhello();
+printhello();
+return 0;
+}
+//function definition
+void printhello(){
+  printf("hello world\n");
+}
+//to multiplication value
+#include<stdio.h>
+int main()
+{ int i,num;
+printf("Input the number(Table to be calculated):\n");
+scanf("%d",&num);
+for(i=1;i<=10;i++)
+{ printf("%d * %d = %d\n",num,i,num*i);
+}
+return 0;}
